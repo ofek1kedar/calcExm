@@ -4,7 +4,13 @@ public class Calculator {
     public static int add(int a, int b) {
         return a + b;
     }
-  
+
+    public static int power (int a, int b) {
+        return a*a;
+
+
+    }
+
     public static void main(String[] args) {
         final int EXIT = 0;
         final int ADD = 1;
