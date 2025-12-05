@@ -24,13 +24,14 @@ public class Calculator {
                 case ADD:
                     System.out.print("Enter two numbers: ");
                     int a = scanner.nextInt();
-                    CHECK = isPrime(a);
-                    System.out.println("The number is Prime? : " + CHECK);
                     int b = scanner.nextInt();
-                    CHECK = isPrime(b);
-                    System.out.println("The number is Prime? : " + CHECK);
                     System.out.println("Result = " + add(a, b));
                     break;
+                case Prime :
+                    System.out.print("Enter two numbers: ");
+                    int a = scanner.nextInt();
+                    CHECK = isPrime(a);
+                    System.out.println("The number is Prime? : " + CHECK);
                 case EXIT:
                     System.out.println("Exiting calculator. Goodbye!");
                     break;
@@ -67,3 +68,4 @@ public class Calculator {
 
 
     }
+
